@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover considered everyday style at Rahi Fashion Zone. Shop premium clothing, new arrivals, and accessories with delivery across Bangladesh.">
+    <meta name="keywords" content="Rahi Fashion Zone, Bangladesh fashion, men's clothing, women's clothing, online fashion, clothing">
+    <meta name="theme-color" content="#f8f8f6">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Rahi Fashion Zone | Define Your Style">
+    <meta property="og:description" content="Thoughtful essentials and statement pieces, made for your everyday. Discover the latest collection.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1200&q=85">
+    <title>Rahi Fashion Zone | Define Your Style</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="announcement-bar">Complimentary delivery on orders over ৳2,500 <span aria-hidden="true">·</span> Made for your everyday</div>
+    <header class="site-header" id="home">
+        <div class="header-inner">
+            <button class="icon-button menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+            <a class="brand" href="#home" aria-label="Rahi Fashion Zone home"><span class="brand-mark">RF</span><span>RAHI <b>FASHION ZONE</b></span></a>
+            <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+                <a href="#home">Home</a><a href="#products" data-nav-filter="Men">Men</a><a href="#products" data-nav-filter="Women">Women</a><a href="#new-arrivals">New Arrivals</a><a href="#sale">Sale</a><a href="#about">About</a><a href="#contact">Contact</a>
+            </nav>
+            <div class="header-actions">
+                <button class="icon-button search-toggle" id="searchToggle" aria-label="Search products"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"></circle><path d="m16 16 5 5"></path></svg></button>
+                <button class="icon-button cart-toggle" id="cartToggle" aria-label="Open shopping bag"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14l1 13H4L5 8Z"></path><path d="M9 9V6a3 3 0 0 1 6 0v3"></path></svg><span class="cart-count" id="cartCount">0</span></button>
+            </div>
+        </div>
+        <div class="search-panel" id="searchPanel" hidden><label class="sr-only" for="searchInput">Search products</label><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"></circle><path d="m16 16 5 5"></path></svg><input id="searchInput" type="search" placeholder="Search the collection..." autocomplete="off"><button class="search-clear" id="searchClear" aria-label="Clear search">×</button></div>
+    </header>
+
+    <main>
+        <section class="hero" aria-labelledby="heroTitle">
+            <div class="hero-shade"></div>
+            <div class="hero-content"><p class="eyebrow light-eyebrow">A NEW SEASON, YOUR WAY</p><h1 id="heroTitle">Define<br>your style.</h1><p>Considered pieces for wherever the day takes you.</p><div class="hero-actions"><a class="button button-light" href="#products" data-nav-filter="Men">Shop men <span aria-hidden="true">↗</span></a><a class="button button-outline-light" href="#products" data-nav-filter="Women">Shop women <span aria-hidden="true">↗</span></a></div></div>
+            <div class="hero-caption"><span>01 / 03</span><span>THE EVERYDAY EDIT</span></div>
+        </section>
+
+        <section class="category-section section-wrap" id="categories">
+            <div class="section-heading"><div><p class="eyebrow">FIND YOUR FIT</p><h2>Shop by category</h2></div><a class="text-link" href="#products">Explore everything <span aria-hidden="true">↗</span></a></div>
+            <div class="category-grid" id="categoryGrid"></div>
+        </section>
+
+        <section class="products-section section-wrap" id="products">
+            <div class="section-heading product-heading"><div><p class="eyebrow">THE GOOD STUFF</p><h2>Made to be worn</h2></div><label class="sort-control"><span>Sort by</span><select id="sortSelect" aria-label="Sort products"><option value="featured">Featured</option><option value="low">Price: Low to High</option><option value="high">Price: High to Low</option><option value="newest">Newest</option></select></label></div>
+            <div class="filter-row" id="filterRow" role="group" aria-label="Filter products"></div>
+            <p class="result-count" id="resultCount" aria-live="polite"></p>
+            <div class="product-grid" id="productGrid"></div>
+            <p class="empty-state" id="emptyState" hidden>No products found.</p>
+        </section>
+
+        <section class="new-arrivals-section" id="new-arrivals"><div class="new-arrivals-inner"><div><p class="eyebrow light-eyebrow">JUST LANDED</p><h2>New things<br>to love.</h2><p>Fresh finds with forever-in-your-wardrobe energy.</p><a class="button button-light" href="#products" id="viewNewArrivals">View all new arrivals <span aria-hidden="true">↗</span></a></div><div class="arrival-image-wrap"><img src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=1100&q=85" alt="New season women's fashion look in a bright studio"><span class="image-note">THE LATEST DROP · 2026</span></div></div></section>
+
+        <section class="sale-banner" id="sale"><div class="sale-copy"><p class="eyebrow">A LITTLE SOMETHING EXTRA</p><h2>Up to <span>40%</span> off</h2><p>Upgrade your wardrobe. Keep a little change.</p><a class="button button-dark" href="#products" data-sale-filter>Shop sale <span aria-hidden="true">↗</span></a></div><div class="sale-side-note">GOOD STYLE.<br>BETTER PRICE.</div></section>
+
+        <section class="reviews-section section-wrap" id="about"><div class="section-heading"><div><p class="eyebrow">KIND WORDS, REAL PEOPLE</p><h2>Worn & loved</h2></div><div class="review-score"><span>★★★★★</span><b>4.9 / 5</b><small>from 2,400+ happy customers</small></div></div><div class="review-grid">
+            <article class="review-card"><div class="review-person"><img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=100&h=100&q=80" alt="Customer portrait, Aisha Rahman"><div><b>Aisha Rahman</b><small>Dhaka · Verified customer</small></div></div><div class="review-stars" aria-label="5 out of 5 stars">★★★★★</div><p>“The fabric feels even better than I expected. My new go-to for an easy, put-together look.”</p></article>
+            <article class="review-card"><div class="review-person"><img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=100&h=100&q=80" alt="Customer portrait, Farhan Ahmed"><div><b>Farhan Ahmed</b><small>Chattogram · Verified customer</small></div></div><div class="review-stars" aria-label="5 out of 5 stars">★★★★★</div><p>“Great fit, lovely packaging, and it arrived right on time. Already looking at my next order.”</p></article>
+            <article class="review-card"><div class="review-person"><img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=100&h=100&q=80" alt="Customer portrait, Nusrat Jahan"><div><b>Nusrat Jahan</b><small>Sylhet · Verified customer</small></div></div><div class="review-stars" aria-label="5 out of 5 stars">★★★★★</div><p>“Finally, thoughtful everyday pieces that feel special without trying too hard. Love this dress.”</p></article>
+            <article class="review-card"><div class="review-person"><img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=100&h=100&q=80" alt="Customer portrait, Imran Hossain"><div><b>Imran Hossain</b><small>Dhaka · Verified customer</small></div></div><div class="review-stars" aria-label="5 out of 5 stars">★★★★★</div><p>“Easy ordering, a helpful team, and the Oxford shirt is excellent quality. A genuinely good find.”</p></article>
+        </div></section>
+
+        <section class="benefits-section" aria-label="Shopping benefits"><div class="benefits-grid"><article><span class="benefit-icon">✳</span><h3>Premium quality</h3><p>Pieces made to live in, and made to last.</p></article><article><span class="benefit-icon">↗</span><h3>Fast delivery</h3><p>At your door, wherever you are in Bangladesh.</p></article><article><span class="benefit-icon">↺</span><h3>Easy returns</h3><p>A simple 7-day return policy, no fuss.</p></article><article><span class="benefit-icon">◇</span><h3>Secure payment</h3><p>Pay with confidence, every time.</p></article></div></section>
+
+        <section class="newsletter-section"><div><p class="eyebrow light-eyebrow">A GOOD EMAIL, OCCASIONALLY</p><h2>Get 10% off your<br>first order.</h2><p>New pieces, considered notes, and a little welcome gift.</p></div><form class="newsletter-form" id="newsletterForm" novalidate><label class="sr-only" for="newsletterEmail">Email address</label><div class="email-input-wrap"><input type="email" id="newsletterEmail" placeholder="Your email address" required><button type="submit" aria-label="Subscribe to newsletter">Join us <span aria-hidden="true">↗</span></button></div><p class="form-message" id="newsletterMessage" aria-live="polite">No noise. Unsubscribe whenever.</p></form></section>
+
+        <section class="contact-section section-wrap" id="contact"><div class="contact-intro"><p class="eyebrow">WE'RE HERE FOR YOU</p><h2>Let's talk<br>good style.</h2><p>Questions about a fit, an order, or just want to say hello? Our team would love to hear from you.</p><div class="contact-links"><a href="tel:+8801700000000">+880 1700-000000</a><a href="mailto:hello@rahifashionzone.com">hello@rahifashionzone.com</a><a href="https://wa.me/8801700000000" target="_blank" rel="noopener noreferrer">Chat with us on WhatsApp ↗</a><p>House 12, Road 4, Dhanmondi<br>Dhaka 1205, Bangladesh</p><div class="contact-socials"><a href="https://facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">fb</a><a href="https://instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">ig</a></div></div></div><form class="contact-form" id="contactForm" novalidate><div class="form-row"><label>Your name<input name="name" type="text" placeholder="Your name" required></label><label>Email address<input name="email" type="email" placeholder="you@example.com" required></label></div><label>Phone number <span>(optional)</span><input name="phone" type="tel" placeholder="+880"></label><label>Your message<textarea name="message" rows="4" placeholder="Tell us what's on your mind..." required></textarea></label><button class="button button-dark" type="submit">Send message <span aria-hidden="true">↗</span></button><p class="form-message" id="contactMessage" aria-live="polite"></p></form></section>
+    </main>
+
+    <footer class="site-footer"><div class="footer-main"><div class="footer-brand"><a class="brand brand-footer" href="#home"><span class="brand-mark">RF</span><span>RAHI <b>FASHION ZONE</b></span></a><p>Good clothes. Good days.<br>Made for your everyday.</p></div><div class="footer-column"><h3>Explore</h3><a href="#home">Home</a><a href="#products">Shop all</a><a href="#new-arrivals">New arrivals</a><a href="#sale">Sale</a></div><div class="footer-column"><h3>We're here</h3><a href="#contact">Contact us</a><a href="#contact">Delivery & returns</a><a href="#contact">FAQs</a><a href="#contact">Size guide</a></div><div class="footer-column footer-contact"><h3>Say hello</h3><a href="mailto:hello@rahifashionzone.com">hello@rahifashionzone.com</a><a href="tel:+8801700000000">+880 1700-000000</a><p>Dhanmondi, Dhaka, Bangladesh</p><div class="contact-socials"><a href="https://facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">fb</a><a href="https://instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">ig</a></div></div></div><div class="footer-bottom"><span>© <span id="currentYear"></span> Rahi Fashion Zone. All rights reserved.</span><span>Website Owner: [Owner Name]</span><span class="developer-credit">Developed by Ahmed Rahi</span></div></footer>
+
+    <div class="drawer-backdrop" id="drawerBackdrop"></div>
+    <aside class="cart-drawer" id="cartDrawer" aria-label="Shopping bag" aria-hidden="true"><div class="drawer-header"><div><p class="eyebrow">YOUR PICKS</p><h2>Your bag <span id="drawerItemCount">(0)</span></h2></div><button class="icon-button close-drawer" id="closeCart" aria-label="Close shopping bag">×</button></div><div class="cart-items" id="cartItems"></div><div class="cart-empty" id="cartEmpty"><span>✳</span><h3>Your bag is taking a breather.</h3><p>Find a few good things to bring it to life.</p><button class="button button-dark" id="continueShopping">Explore the collection</button></div><div class="cart-footer" id="cartFooter"><button class="clear-cart" id="clearCart">Clear bag</button><div class="subtotal-row"><span>Subtotal</span><b id="cartSubtotal">৳0</b></div><p>Shipping and taxes calculated at checkout.</p><button class="button button-dark checkout-button" id="checkoutButton">Checkout <span aria-hidden="true">↗</span></button><a class="whatsapp-checkout" id="whatsappCheckout" href="#" target="_blank" rel="noopener noreferrer">Or order on WhatsApp</a></div></aside>
+
+    <dialog class="quick-view-dialog" id="quickViewDialog" aria-label="Product quick view"><button class="icon-button modal-close" id="closeQuickView" aria-label="Close product details">×</button><div id="quickViewContent"></div></dialog>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <script src="script.js" defer></script>
+</body>
+</html>
