@@ -5,34 +5,128 @@ const WISHLIST_STORAGE_KEY = 'rahiFashionZoneWishlist';
 
 // Product details are kept in one catalog and reused by every shop view.
 const products = [
-	{ id: 'oversized-tee', name: 'Premium Oversized T-Shirt', category: 'T-Shirts', audience: 'Men', price: 850, oldPrice: 1050, rating: 4.9, reviews: 128, image: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=750&q=85', isNew: true, created: 12, colors: [{ name: 'Cloud', hex: '#e6e3dd' }, { name: 'Black', hex: '#242424' }, { name: 'Sage', hex: '#89917d' }], description: 'A relaxed everyday essential, cut from soft, breathable cotton with a considered weight and easy, oversized shape.' },
+    //T-shirt zone
+
+	{ id: 'T-shirt-1', name: 'Stylish New Polo Shirt', category: 'T-Shirts', audience: 'Men', price: 350, oldPrice: 500, rating: 4.9, reviews: 128, image: 'T-shirt/t1.jpeg', isNew: true, created: 12, colors: [{ name: 'Cloud', hex: '#e6e3dd' }, { name: 'Black', hex: '#242424' }, { name: 'Sage', hex: '#89917d' }], description: `Stylish New Polo Shirt
+
+			Main Material: Cotton<br>
+			Fabrics: PK Cotton<br>
+			Premium Quality<br>
+			Fabrication: 200(10+-)GSM<br>
+			Sleeve: Half Sleeve<br>
+			100% Export Quality Sewing<br>
+			Size- M, L, XL<br>
+			M - Length 28 Chest 38<br>
+			L - Length 29 Chest: 40<br>
+			XL - Length 30 Chest 42` },
+
+    { id: 'T-shirt-2', name: 'Stylish New Polo Shirt', category: 'T-Shirts', audience: 'Men', price: 350, oldPrice: 500, rating: 4.9, reviews: 128, image: 'T-shirt/t2.jpeg', isNew: true, created: 12, colors: [{ name: 'Cloud', hex: '#e6e3dd' }, { name: 'Black', hex: '#242424' }, { name: 'Sage', hex: '#89917d' }], description: `
+
+				Product Type: Polo Shirt<br>
+				Main Material: Cotton<br>
+				Fabrics: PK Cotton<br>
+				Premium Quality<br>
+				Fabrication: 200(10+-)GSM<br>
+				Sleeve: Half Sleeve<br>
+				100% Export Quality Sewing
+` },
+
+    { id: 'T-shirt-3', name: 'Premium Cotton Drop Shoulder Tshirt', category: 'T-Shirts', audience: 'Men', price: 499, oldPrice: 999, rating: 4.9, reviews: 128, image: 'T-shirt/t3.jpeg', isNew: true, created: 12, colors: [{ name: 'Cloud', hex: '#e6e3dd' }, { name: 'Black', hex: '#242424' }, { name: 'Sage', hex: '#89917d' }], description: `
+	Premium Cotton Drop Shoulder Tshirt
+	 <br><br>
+		Fabric: 100% Cotton
+		Quality: Premium Quality Fabric
+		Print Type: DTF
+		GSM: 200–230
+		Fit: Drop Shoulder
+		<br><br>
+		SIZE GUIDE (IN INCHES) 
+		M — Chest 42" | Length 27"
+		L — Chest 44" | Length 28"
+		XL — Chest 46" | Length 29"
+		XXL — Chest 48" | Length 30"` },
+
+    { id: 'T-shirt-4', name: 'Premium Cotton Drop Shoulder Tshirt', category: 'T-Shirts', audience: 'Men', price: 499, oldPrice: 999, rating: 4.9, reviews: 128, image: 'T-shirt/t4.jpeg', isNew: true, created: 12, colors: [{ name: 'Cloud', hex: '#e6e3dd' }, { name: 'Black', hex: '#242424' }, { name: 'Sage', hex: '#89917d' }], description: `
+	Premium Cotton Drop Shoulder Tshirt
+	 <br><br>
+		Fabric: 100% Cotton
+		Quality: Premium Quality Fabric
+		Print Type: DTF
+		GSM: 200–230
+		Fit: Drop Shoulder
+		<br><br>
+		SIZE GUIDE (IN INCHES) 
+		M — Chest 42" | Length 27"
+		L — Chest 44" | Length 28"
+		XL — Chest 46" | Length 29"
+		XXL — Chest 48" | Length 30"` },
+
+    { id: 'T-shirt-5', name: 'Premium Oversized T-Shirt', category: 'T-Shirts', audience: 'Men', price: 350, oldPrice: 599, rating: 4.9, reviews: 128, image: 'T-shirt/t5.jpeg', isNew: true, created: 12, colors: [{ name: 'Cloud', hex: '#e6e3dd' }, { name: 'Black', hex: '#242424' }, { name: 'Sage', hex: '#89917d' }], description: 'A relaxed everyday essential, cut from soft, breathable cotton with a considered weight and easy, oversized shape.' },
+
+    { id: 'T-shirt-6', name: 'Premium Oversized T-Shirt', category: 'T-Shirts', audience: 'Men', price: 350, oldPrice: 599, rating: 4.9, reviews: 128, image: 'T-shirt/t6.jpeg', isNew: true, created: 12, colors: [{ name: 'Cloud', hex: '#e6e3dd' }, { name: 'Black', hex: '#242424' }, { name: 'Sage', hex: '#89917d' }], description: 'A relaxed everyday essential, cut from soft, breathable cotton with a considered weight and easy, oversized shape.' },
+
+    { id: 'womens-tee', name: "Women's Oversized T-Shirt", category: 'T-Shirts', audience: 'Men', price: 310, oldPrice: 600, rating: 4.8, reviews: 93, image: 'T-shirt/t7.jpeg', isNew: true, created: 7, colors: [{ name: 'White', hex: '#f4f1e8' }, { name: 'Rose', hex: '#c99a91' }, { name: 'Black', hex: '#242424' }], description: 'Soft cotton, a clean silhouette and an easy oversized fit. Made to pair with absolutely everything.' },
+    
+ //shirt zone
+
 	{ id: 'oxford-shirt', name: 'Classic Oxford Shirt', category: 'Shirts', audience: 'Men', price: 1250, oldPrice: null, rating: 4.8, reviews: 86, image: 'https://images.unsplash.com/photo-1598033129183-c4f50c736f10?auto=format&fit=crop&w=750&q=85', isNew: false, created: 11, colors: [{ name: 'White', hex: '#f4f1e8' }, { name: 'Blue', hex: '#8ea7bb' }], description: 'A timeless button-down in crisp, comfortable cotton. Easy to dress up, even easier to wear on repeat.' },
+
+ //pant zone   
+
 	{ id: 'slim-jeans', name: 'Slim Fit Jeans', category: 'Pants', audience: 'Men', price: 1650, oldPrice: 1950, rating: 4.7, reviews: 74, image: 'https://images.unsplash.com/photo-1542272604-787c3835535d?auto=format&fit=crop&w=750&q=85', isNew: false, created: 10, colors: [{ name: 'Indigo', hex: '#263c56' }, { name: 'Washed black', hex: '#555451' }], description: 'Clean lines, a comfortable mid-rise and just enough stretch. Your new reliable pair, from morning to last call.' },
+
+
 	{ id: 'premium-hoodie', name: 'Premium Hoodie', category: 'Hoodies', audience: 'Men', price: 1450, oldPrice: 1800, rating: 4.9, reviews: 62, image: 'https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=750&q=85', isNew: true, created: 9, colors: [{ name: 'Stone', hex: '#b9b3a8' }, { name: 'Black', hex: '#242424' }], description: 'A soft brushed interior and a relaxed, considered fit make this the layer you will reach for all season.' },
+
+
 	{ id: 'polo-shirt', name: 'Casual Polo Shirt', category: 'Shirts', audience: 'Men', price: 950, oldPrice: null, rating: 4.6, reviews: 41, image: 'https://images.unsplash.com/photo-1625910513413-5fc44e1e9b69?auto=format&fit=crop&w=750&q=85', isNew: false, created: 8, colors: [{ name: 'Olive', hex: '#69725a' }, { name: 'Navy', hex: '#252e43' }], description: 'A smarter everyday staple in a soft cotton blend. Finished with a neat collar and a comfortable, easy fit.' },
-	{ id: 'womens-tee', name: "Women's Oversized T-Shirt", category: 'T-Shirts', audience: 'Women', price: 850, oldPrice: null, rating: 4.8, reviews: 93, image: 'https://images.unsplash.com/photo-1566206091558-7f218b696731?auto=format&fit=crop&w=750&q=85', isNew: true, created: 7, colors: [{ name: 'White', hex: '#f4f1e8' }, { name: 'Rose', hex: '#c99a91' }, { name: 'Black', hex: '#242424' }], description: 'Soft cotton, a clean silhouette and an easy oversized fit. Made to pair with absolutely everything.' },
-	{ id: 'long-dress', name: 'Elegant Long Dress', category: 'Dresses', audience: 'Women', price: 1800, oldPrice: 2200, rating: 4.9, reviews: 57, image: 'https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=750&q=85', isNew: true, created: 6, colors: [{ name: 'Black', hex: '#242424' }, { name: 'Terracotta', hex: '#a8624d' }], description: 'An effortless longline shape with soft drape and thoughtful detailing. Special enough for plans, comfortable enough for all day.' },
+
+
+	
+
+
+	{ id: 'long-dress', name: 'Elegant Long Dress', category: 'Punjabi', audience: 'Men', price: 1800, oldPrice: 2200, rating: 4.9, reviews: 57, image: 'https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=750&q=85', isNew: true, created: 6, colors: [{ name: 'Black', hex: '#242424' }, { name: 'Terracotta', hex: '#a8624d' }], description: 'An effortless longline shape with soft drape and thoughtful detailing. Special enough for plans, comfortable enough for all day.' },
+
+
 	{ id: 'denim-jacket', name: "Women's Denim Jacket", category: 'Jackets', audience: 'Women', price: 1700, oldPrice: 2100, rating: 4.7, reviews: 39, image: 'https://images.unsplash.com/photo-1548624149-f446a234eb9d?auto=format&fit=crop&w=750&q=85', isNew: false, created: 5, colors: [{ name: 'Blue denim', hex: '#526c84' }, { name: 'Washed black', hex: '#555451' }], description: 'The forever layer, done right. A relaxed denim jacket with classic details and the perfect broken-in feel.' },
+
+
 	{ id: 'cargo-pants', name: 'Cargo Pants', category: 'Pants', audience: 'Men', price: 1350, oldPrice: null, rating: 4.6, reviews: 48, image: 'https://images.unsplash.com/photo-1517438476312-10d79c077509?auto=format&fit=crop&w=750&q=85', isNew: false, created: 4, colors: [{ name: 'Olive', hex: '#69725a' }, { name: 'Sand', hex: '#c8b79e' }], description: 'A practical everyday trouser with a modern tapered leg, comfortable cotton twill and considered utility pockets.' },
+
+
 	{ id: 'cotton-panjabi', name: 'Cotton Panjabi', category: 'Shirts', audience: 'Men', price: 1500, oldPrice: 1850, rating: 4.9, reviews: 116, image: 'https://images.unsplash.com/photo-1617137968427-85924c800a22?auto=format&fit=crop&w=750&q=85', isNew: true, created: 3, colors: [{ name: 'Ivory', hex: '#e8e1d3' }, { name: 'Deep green', hex: '#394b3b' }], description: 'A breathable cotton Panjabi that brings a thoughtful, modern ease to a timeless classic.' },
+
+
 	{ id: 'fashion-handbag', name: 'Fashion Handbag', category: 'Accessories', audience: 'Women', price: 1200, oldPrice: null, rating: 4.8, reviews: 35, image: 'https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=750&q=85', isNew: false, created: 2, colors: [{ name: 'Tan', hex: '#a87850' }, { name: 'Black', hex: '#242424' }], description: 'A compact, thoughtfully designed everyday bag with room for the things you actually carry.' },
+
+
 	{ id: 'premium-cap', name: 'Premium Cap', category: 'Accessories', audience: 'Men', price: 450, oldPrice: null, rating: 4.7, reviews: 27, image: 'https://images.unsplash.com/photo-1588850561407-ed78c282e89b?auto=format&fit=crop&w=750&q=85', isNew: true, created: 1, colors: [{ name: 'Black', hex: '#242424' }, { name: 'Cream', hex: '#e8e1d3' }], description: 'A clean, adjustable cap in durable cotton twill. The finishing touch for laid-back days.' },
+
+
     { id: 'premium-cap', name: 'Premium Cap', category: 'Accessories', audience: 'Men', price: 450, oldPrice: null, rating: 4.7, reviews: 27, image: 'https://images.unsplash.com/photo-1588850561407-ed78c282e89b?auto=format&fit=crop&w=750&q=85', isNew: true, created: 1, colors: [{ name: 'Black', hex: '#242424' }, { name: 'Cream', hex: '#e8e1d3' }], description: 'A clean, adjustable cap in durable cotton twill. The finishing touch for laid-back days.' },
 ];
+
 
 // Category cards use the same filter values as the product filter buttons.
 const categories = [
 	{ title: "Men's Fashion", filter: 'Men', image:'men/men1.jpg', position: 'center 30%' },
+
 	{ title: "Women's Fashion", filter: 'Women', image: 'https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=650&q=80', position: 'center 35%' },
+
 	{ title: 'T-Shirts', filter: 'T-Shirts', image: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=650&q=80' },
+
 	{ title: 'Shirts', filter: 'Shirts', image: 'https://images.unsplash.com/photo-1598033129183-c4f50c736f10?auto=format&fit=crop&w=650&q=80' },
+
 	{ title: 'Pants', filter: 'Pants', image: 'https://images.unsplash.com/photo-1542272604-787c3835535d?auto=format&fit=crop&w=650&q=80' },
+
 	{ title: 'Hoodies', filter: 'Hoodies', image: 'https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=650&q=80' },
-	{ title: 'Dresses', filter: 'Dresses', image: 'men/punjabi.jpeg' },
+
+	{ title: 'Punjabi', filter: 'Dresses', image: 'men/punjabi.jpeg' },
+
 	{ title: 'Accessories', filter: 'Accessories', image: 'https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=650&q=80' }
 ];
 
-const filterOptions = ['All', 'Men', 'Women', 'T-Shirts', 'Shirts', 'Pants', 'Dresses', 'Accessories'];
+const filterOptions = ['All', 'Men', 'Women', 'T-Shirts', 'Shirts', 'Pants', 'Punjabi', 'Hoodies', 'Accessories'];
 const productGrid = document.querySelector('#productGrid');
 const filterRow = document.querySelector('#filterRow');
 const searchInput = document.querySelector('#searchInput');

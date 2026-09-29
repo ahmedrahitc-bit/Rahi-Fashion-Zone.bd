@@ -241,7 +241,7 @@ button { color: inherit; }
 .quick-view-info h2 { margin: 0; color: var(--ink); font-family: var(--serif); font-size: 30px; font-weight: 400; line-height: 1.15; }
 .quick-view-info .product-rating { margin: 10px 0 6px; }
 .quick-view-info .product-price { margin-bottom: 16px; }
-.quick-view-description { margin: 0 0 18px; color: var(--muted); font-size: 10px; line-height: 1.8; }
+.quick-view-description { margin: 0 0 18px; color: var(--muted); font-size: 15px; line-height: 1.8; }
 .option-label { margin: 13px 0 7px; color: var(--ink); font-size: 9px; font-weight: 600; }
 .size-options, .color-options { display: flex; flex-wrap: wrap; gap: 6px; }
 .size-button { width: 36px; height: 34px; border: 1px solid var(--line); background: white; color: var(--text); font-size: 9px; cursor: pointer; }
