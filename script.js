@@ -32,78 +32,185 @@ const products = [
 ` },
 
     { id: 'T-shirt-3', name: 'Premium Cotton Drop Shoulder Tshirt', category: 'T-Shirts', audience: 'Men', price: 499, oldPrice: 999, rating: 4.9, reviews: 128, image: 'T-shirt/t3.jpeg', isNew: true, created: 12, colors: [{ name: 'Cloud', hex: '#e6e3dd' }, { name: 'Black', hex: '#242424' }, { name: 'Sage', hex: '#89917d' }], description: `
-	Premium Cotton Drop Shoulder Tshirt
-	 <br><br>
-		Fabric: 100% Cotton
-		Quality: Premium Quality Fabric
-		Print Type: DTF
-		GSM: 200–230
-		Fit: Drop Shoulder
-		<br><br>
-		SIZE GUIDE (IN INCHES) 
-		M — Chest 42" | Length 27"
-		L — Chest 44" | Length 28"
-		XL — Chest 46" | Length 29"
+		Fabric: 100% Cotton<br>
+		Quality: Premium Quality Fabric<br>
+		Print Type: DTF<br>
+		GSM: 200–230<br>
+		Fit: Drop Shoulder<br>
+		SIZE GUIDE (IN INCHES) <br>
+		M — Chest 42" | Length 27"<br>
+		L — Chest 44" | Length 28"<br>
+		XL — Chest 46" | Length 29"<br>
 		XXL — Chest 48" | Length 30"` },
 
     { id: 'T-shirt-4', name: 'Premium Cotton Drop Shoulder Tshirt', category: 'T-Shirts', audience: 'Men', price: 499, oldPrice: 999, rating: 4.9, reviews: 128, image: 'T-shirt/t4.jpeg', isNew: true, created: 12, colors: [{ name: 'Cloud', hex: '#e6e3dd' }, { name: 'Black', hex: '#242424' }, { name: 'Sage', hex: '#89917d' }], description: `
-	Premium Cotton Drop Shoulder Tshirt
-	 <br><br>
-		Fabric: 100% Cotton
-		Quality: Premium Quality Fabric
-		Print Type: DTF
-		GSM: 200–230
-		Fit: Drop Shoulder
-		<br><br>
-		SIZE GUIDE (IN INCHES) 
-		M — Chest 42" | Length 27"
-		L — Chest 44" | Length 28"
-		XL — Chest 46" | Length 29"
+		Fabric: 100% Cotton<br>
+		Quality: Premium Quality Fabric<br>
+		Print Type: DTF<br>
+		GSM: 200–230<br>
+		Fit: Drop Shoulder<br>
+		SIZE GUIDE (IN INCHES) <br>
+		M — Chest 42" | Length 27"<br>
+		L — Chest 44" | Length 28"<br>
+		XL — Chest 46" | Length 29"<br>
 		XXL — Chest 48" | Length 30"` },
 
-    { id: 'T-shirt-5', name: 'Premium Oversized T-Shirt', category: 'T-Shirts', audience: 'Men', price: 350, oldPrice: 599, rating: 4.9, reviews: 128, image: 'T-shirt/t5.jpeg', isNew: true, created: 12, colors: [{ name: 'Cloud', hex: '#e6e3dd' }, { name: 'Black', hex: '#242424' }, { name: 'Sage', hex: '#89917d' }], description: 'A relaxed everyday essential, cut from soft, breathable cotton with a considered weight and easy, oversized shape.' },
+    { id: 'T-shirt-5', name: 'Viral Old Money Polo', category: 'T-Shirts', audience: 'Men', price: 350, oldPrice: 599, rating: 4.9, reviews: 128, image: 'T-shirt/t5.jpeg', isNew: true, created: 12, colors: [{ name: 'Cloud', hex: '#e6e3dd' }, { name: 'Black', hex: '#242424' }, { name: 'Sage', hex: '#89917d' }], description: `- Premium Cherry Ribbed Cotton Fabric
+			- 250+ GSM Heavy Quality Fabric<br>
+			- Soft & Comfortable Feel<br>
+			- Premium Finishing<br>
+			- Long Lasting & Durable Quality<br>
+			- Available Size: M, L, XL, XXL` },
 
-    { id: 'T-shirt-6', name: 'Premium Oversized T-Shirt', category: 'T-Shirts', audience: 'Men', price: 350, oldPrice: 599, rating: 4.9, reviews: 128, image: 'T-shirt/t6.jpeg', isNew: true, created: 12, colors: [{ name: 'Cloud', hex: '#e6e3dd' }, { name: 'Black', hex: '#242424' }, { name: 'Sage', hex: '#89917d' }], description: 'A relaxed everyday essential, cut from soft, breathable cotton with a considered weight and easy, oversized shape.' },
+    { id: 'T-shirt-6', name: 'Stylish New Polo Shirt', category: 'T-Shirts', audience: 'Men', price: 350, oldPrice: 599, rating: 4.9, reviews: 128, image: 'T-shirt/t6.jpeg', isNew: true, created: 12, colors: [{ name: 'Cloud', hex: '#e6e3dd' }, { name: 'Black', hex: '#242424' }, { name: 'Sage', hex: '#89917d' }], description: `Product Type: Polo Shirt
+				Main Material: Cotton<br>
+				Fabrics: PK Cotton<br>
+				Premium Quality<br>
+				Fabrication: 200(10+-)GSM<br>
+				Sleeve: Half Sleeve<br>
+				100% Export Quality Sewing` },
 
-    { id: 'womens-tee', name: "Women's Oversized T-Shirt", category: 'T-Shirts', audience: 'Men', price: 310, oldPrice: 600, rating: 4.8, reviews: 93, image: 'T-shirt/t7.jpeg', isNew: true, created: 7, colors: [{ name: 'White', hex: '#f4f1e8' }, { name: 'Rose', hex: '#c99a91' }, { name: 'Black', hex: '#242424' }], description: 'Soft cotton, a clean silhouette and an easy oversized fit. Made to pair with absolutely everything.' },
-    
+    { id: 'womens-tee', name: "Cotton Printed T-Shirt", category: 'T-Shirts', audience: 'Men', price: 310, oldPrice: 600, rating: 4.8, reviews: 93, image: 'T-shirt/t7.jpeg', isNew: true, created: 7, colors: [{ name: 'White', hex: '#f4f1e8' }, { name: 'Rose', hex: '#c99a91' }, { name: 'Black', hex: '#242424' }], description: `
+						👉১০০% কটন ফেব্রিক্স<br>
+						👉পারফেক্ট সাইজ মেজারমেন্ট<br>
+						👉 আকর্ষণীয় ডিজাইন<br>
+						👉 সফট,ও আরামদায়ক<br>
+						👉 ১৬০-১৮০ GSM ফেব্রিক্স<br>
+						👉হাই-কোয়ালিটি DTF প্রিন্ট` },
+
  //shirt zone
 
-	{ id: 'oxford-shirt', name: 'Classic Oxford Shirt', category: 'Shirts', audience: 'Men', price: 1250, oldPrice: null, rating: 4.8, reviews: 86, image: 'https://images.unsplash.com/photo-1598033129183-c4f50c736f10?auto=format&fit=crop&w=750&q=85', isNew: false, created: 11, colors: [{ name: 'White', hex: '#f4f1e8' }, { name: 'Blue', hex: '#8ea7bb' }], description: 'A timeless button-down in crisp, comfortable cotton. Easy to dress up, even easier to wear on repeat.' },
+	{ id: 'shirt-1', name: 'Premium Solid Stitch Full Sleeve Shirt', category: 'Shirts', audience: 'Men', price: 599, oldPrice: null, rating: 4.8, reviews: 86, image: 'shirt/shirt1.jpeg', isNew: false, created: 11, colors: [{ name: 'White', hex: '#f4f1e8' }, { name: 'Blue', hex: '#8ea7bb' }], description: `নরম ও আরামদায়ক প্রিমিয়াম চায়না ভাংচুর ফেব্রিক্সের তৈরি ফুল হাতা শার্ট।
+						স্টাইলিশ টেক্সচার ডিজাইন ও সুন্দর ফিটিংয়ে আপনাকে দিবে দারুন স্টাইলইশ লুক।<br>
+
+						📌 Product Details:<br>
+						✅ প্রিমিয়াম কোয়ালিটি<br>
+						✅ সফট চায়না ভাংচুর ফেব্রিক্স<br>
+						✅ স্টাইলিশ টেক্সচার ডিজাইন<br>
+						✅ আরামদায়ক ফিটিং<br>
+						✅ দৈনন্দিন ব্যবহারের জন্য উপযোগী` },
+
+	{ id: 'shirt-2', name: 'Premium Solid Stitch Full Sleeve Shirt', category: 'Shirts', audience: 'Men', price: 599, oldPrice: null, rating: 4.8, reviews: 86, image: 'shirt/shirt2.jpeg', isNew: false, created: 11, colors: [{ name: 'White', hex: '#f4f1e8' }, { name: 'Blue', hex: '#8ea7bb' }], description: `নরম ও আরামদায়ক প্রিমিয়াম চায়না ভাংচুর ফেব্রিক্সের তৈরি ফুল হাতা শার্ট।
+						স্টাইলিশ টেক্সচার ডিজাইন ও সুন্দর ফিটিংয়ে আপনাকে দিবে দারুন স্টাইলইশ লুক।<br>
+
+						📌 Product Details:<br>
+						✅ প্রিমিয়াম কোয়ালিটি<br>
+						✅ সফট চায়না ভাংচুর ফেব্রিক্স<br>
+						✅ স্টাইলিশ টেক্সচার ডিজাইন<br>
+						✅ আরামদায়ক ফিটিং<br>
+						✅ দৈনন্দিন ব্যবহারের জন্য উপযোগী` },
+
+	{ id: 'shirt-3', name: 'Premium Oxford Cotton Solid Black Shirt', category: 'Shirts', audience: 'Men', price: 499, oldPrice: null, rating: 4.8, reviews: 86, image: 'shirt/shirt3.jpeg', isNew: false, created: 11, colors: [{ name: 'White', hex: '#f4f1e8' }, { name: 'Blue', hex: '#8ea7bb' }], description: `প্রিমিয়াম অক্সফোর্ড কটন ফেব্রিক্সের ব্যান কলার ফুল হাতা শার্ট।
+							গরমে স্টাইল আর কমফোর্ট—দুটোই একসাথে!<br>
+
+							👕 Product Details:<br>
+							✔️ Fabrics: 100% Oxford Cotton (Soft & Breathable)<br>
+							✔️ Quality: Export Quality Stitching & Finishing<br>
+							✔️ Sleeve: Long Sleave<br>
+							✔️ Fit: Slim Fit (Smart Look)<br>
+							✔️ Color & Quality: 100% Guaranteed<br>
+							✔️ Comfortable for Every Season` },
+
+	{ id: 'shirt-4', name: 'Formal Official Cotton Shirt', category: 'Shirts', audience: 'Men', price: 599, oldPrice: null, rating: 4.8, reviews: 86, image: 'shirt/shirt4.jpeg', isNew: false, created: 11, colors: [{ name: 'White', hex: '#f4f1e8' }, { name: 'Blue', hex: '#8ea7bb' }], description: `Premium White Pinstripe Long Sleeve<br>
+							Fabric: Oxford Cotton<br>
+							Export Quality <br>
+							Fabric details:<br>
+							Material: Oxford Cotton<br>
+							Quality: 100% Premium<br>
+							Very comfortable & high-quality Fabric<br>
+							Color and Wash Granted` },
+
+	{ id: 'shirt-5', name: 'Premium Oxford Cotton Solid Shirt', category: 'Shirts', audience: 'Men', price: 499, oldPrice: null, rating: 4.8, reviews: 86, image: 'shirt/shirt5.jpeg', isNew: false, created: 11, colors: [{ name: 'White', hex: '#f4f1e8' }, { name: 'Blue', hex: '#8ea7bb' }], description: `প্রিমিয়াম অক্সফোর্ড কটন ফেব্রিক্সের ব্যান কলার ফুল হাতা শার্ট।
+							গরমে স্টাইল আর কমফোর্ট—দুটোই একসাথে!<br>
+
+							👕 Product Details:<br>
+							✔️ Fabrics: 100% Oxford Cotton (Soft & Breathable)<br>
+							✔️ Quality: Export Quality Stitching & Finishing<br>
+							✔️ Sleeve: Long Sleave<br>
+							✔️ Fit: Slim Fit (Smart Look)<br>
+							✔️ Color & Quality: 100% Guaranteed<br>
+							✔️ Comfortable for Every Season` },
 
  //pant zone   
 
-	{ id: 'slim-jeans', name: 'Slim Fit Jeans', category: 'Pants', audience: 'Men', price: 1650, oldPrice: 1950, rating: 4.7, reviews: 74, image: 'https://images.unsplash.com/photo-1542272604-787c3835535d?auto=format&fit=crop&w=750&q=85', isNew: false, created: 10, colors: [{ name: 'Indigo', hex: '#263c56' }, { name: 'Washed black', hex: '#555451' }], description: 'Clean lines, a comfortable mid-rise and just enough stretch. Your new reliable pair, from morning to last call.' },
+	{ id: 'pant-1', name: 'Black Cargo Stripe Sweatpants Joggers', category: 'Pants', audience: 'Men', price: 450, oldPrice: 1950, rating: 4.7, reviews: 74, image: 'pant/pant1.jpg', isNew: false, created: 10, colors: [{ name: 'Indigo', hex: '#263c56' }, { name: 'Washed black', hex: '#555451' }], description: `Fabric: Microfiber/ China suit<br>
+							Type : China suit Skinny Rib Trouser<br>
+							Fabric : Cotton 70%+ 30% polyester<br>
+							Type : Trouser<br>
+							GSM: 220+<br>
+							Main Material: Cotton 70%+30% polyester<br>
+							Export Quality Sweing` },
+
+	{ id: 'pant-2', name: 'Premium Chinese Dubai Fabric Trousers', category: 'Pants', audience: 'Men', price: 799, oldPrice: 1950, rating: 4.7, reviews: 74, image: 'pant/pant2.jpeg', isNew: false, created: 10, colors: [{ name: 'Indigo', hex: '#263c56' }, { name: 'Washed black', hex: '#555451' }], description: `100% Premium Trouser.<br>
+							Fabrics: Chinese Dooby fabric.<br>
+							Accurate Size Measurement.<br>
+							Available Size: M, L, XL, XXL` },							
+
+	{ id: 'pant-3', name: 'Premium Chinese Dubai Fabric Trousers', category: 'Pants', audience: 'Men', price: 799, oldPrice: 1950, rating: 4.7, reviews: 74, image: 'pant/pant3.jpeg', isNew: false, created: 10, colors: [{ name: 'Indigo', hex: '#263c56' }, { name: 'Washed black', hex: '#555451' }], description: `100% Premium Trouser.<br>
+							Fabrics: Chinese Dooby fabric.<br>
+							Accurate Size Measurement.<br>
+							Available Size: M, L, XL, XXL` },							
 
 
-	{ id: 'premium-hoodie', name: 'Premium Hoodie', category: 'Hoodies', audience: 'Men', price: 1450, oldPrice: 1800, rating: 4.9, reviews: 62, image: 'https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=750&q=85', isNew: true, created: 9, colors: [{ name: 'Stone', hex: '#b9b3a8' }, { name: 'Black', hex: '#242424' }], description: 'A soft brushed interior and a relaxed, considered fit make this the layer you will reach for all season.' },
+		{ id: 'pant-4', name: 'BAGGY TROUSER', category: 'Pants', audience: 'Men', price: 550, oldPrice: null, rating: 4.6, reviews: 48, image: 'pant/pant4.jpeg', isNew: false, created: 4, colors: [{ name: 'Olive', hex: '#69725a' }, { name: 'Sand', hex: '#c8b79e' }], description: `Premium Quality | 100% Cotton Fabric<br>
+							Fabric: 100% Cotton<br>
+							Soft & Comfortable <br>
+							Breathable Fabric <br>
+							Premium Quality<br>
+							Perfect for Everyday Wear` },							
 
 
-	{ id: 'polo-shirt', name: 'Casual Polo Shirt', category: 'Shirts', audience: 'Men', price: 950, oldPrice: null, rating: 4.6, reviews: 41, image: 'https://images.unsplash.com/photo-1625910513413-5fc44e1e9b69?auto=format&fit=crop&w=750&q=85', isNew: false, created: 8, colors: [{ name: 'Olive', hex: '#69725a' }, { name: 'Navy', hex: '#252e43' }], description: 'A smarter everyday staple in a soft cotton blend. Finished with a neat collar and a comfortable, easy fit.' },
+
+	
+//panjabi zone
+
+		{ id: 'panjabi-l', name: 'Luxury Italian Panjabi with Box', category: 'Punjabi', audience: 'Men', price:1700 , oldPrice: 2200, rating: 4.6, reviews: 7, image: 'panjabi/panjabi1.jpeg', isNew: true, created: 6, colors: [{ name: 'Black', hex: '#242424' }, { name: 'Terracotta', hex: '#a8624d' }], description: `🔥লাক্সারি ডিজাইনের অরিজিনাল লা-ইতালিয়ান কটন ফেব্রিক্সে কমপ্লেক্স এমব্রয়ডারির কাজ করা সুপার প্রিমিয়াম পাঞ্জাবি🔥<br>
+
+				ফেব্রিক্সঃ পাকিস্তানি লাক্সারি লা-ইতালিয়ান কটন।<br>
+				ডিজাইনঃ কমপ্লেক্স এমব্রয়ডারির কাজ করা।<br>
+				বাটুনঃ প্রিমিয়াম ম্যাচিং স্নাপ বাটুন।<br>
+				কোয়ালিটিঃ ১০০% এক্সপোর্ট কোয়ালিটি সুইং।<br>
+				সাইজঃ বডি সাইজ ৪০ থেকে ৪৮ পর্যন্ত।` },
+
+
+	
+	{ id: 'panjabi-2', name: 'Luxury Original Pakistani Panjabi', category: 'Punjabi', audience: 'Men', price:1999 , oldPrice: 2500, rating: 4.8, reviews: 10, image: 'panjabi/panjabi2.jpeg', isNew: true, created: 6, colors: [{ name: 'Black', hex: '#242424' }, { name: 'Terracotta', hex: '#a8624d' }], description:  `🔥লাক্সারি ডিজাইনের অরিজিনাল পাকিস্তানি জ্যাকওয়ার্ড কটন ফেব্রিক্সে   কমপ্লেক্স এমব্রয়ডারির কাজ করা সুপার প্রিমিয়াম পাঞ্জাবি🔥<br>
+
+					ফেব্রিক্সঃ পাকিস্তানি লাক্সারি জ্যাকওয়ার্ড কটন।<br>
+					ডিজাইনঃ কমপ্লেক্স এমব্রয়ডারির কাজ করা।<br>
+					বাটুনঃ প্রিমিয়াম ম্যাচিং স্নাপ বাটুন।<br>
+					কোয়ালিটিঃ ১০০% এক্সপোর্ট কোয়ালিটি সুইং।<br>
+					সাইজঃ বডি সাইজ ৪০ থেকে ৪৮ পর্যন্ত।<br>
+					প্রত্যেকটা পাঞ্জাবির সাথে থাকবে বক্স।`},
+
+
+
+	
+	{ id: 'panjabi-3', name: 'Premium Cotton Print Panjabi', category: 'Punjabi', audience: 'Men', price:1200 , oldPrice: 2000, rating: 4.7, reviews: 8, image: 'panjabi/panjabi3.jpeg', isNew: true, created: 6, colors: [{ name: 'Black', hex: '#242424' }, { name: 'Terracotta', hex: '#a8624d' }], description: `ফেব্রিক্সঃ ১০০% উন্নত মানের সুতি।<br>
+								খুবই সফট এবং প্রিমিয়াম কোয়ালিটির পাঞ্জাবি।<br>
+								বডিতে প্রিন্টের কাজ করা` },
 
 
 	
 
 
-	{ id: 'long-dress', name: 'Elegant Long Dress', category: 'Punjabi', audience: 'Men', price: 1800, oldPrice: 2200, rating: 4.9, reviews: 57, image: 'https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=750&q=85', isNew: true, created: 6, colors: [{ name: 'Black', hex: '#242424' }, { name: 'Terracotta', hex: '#a8624d' }], description: 'An effortless longline shape with soft drape and thoughtful detailing. Special enough for plans, comfortable enough for all day.' },
+
+///accessorise 
+
+	
 
 
-	{ id: 'denim-jacket', name: "Women's Denim Jacket", category: 'Jackets', audience: 'Women', price: 1700, oldPrice: 2100, rating: 4.7, reviews: 39, image: 'https://images.unsplash.com/photo-1548624149-f446a234eb9d?auto=format&fit=crop&w=750&q=85', isNew: false, created: 5, colors: [{ name: 'Blue denim', hex: '#526c84' }, { name: 'Washed black', hex: '#555451' }], description: 'The forever layer, done right. A relaxed denim jacket with classic details and the perfect broken-in feel.' },
+	{ id: 'bag-1', name: 'Trendy black student backpack', category: 'Accessories', audience: 'Women', price: 1100, oldPrice:1500 , rating: 4.8, reviews: 35, image: 'accessorise/bag1.jpeg', isNew: false, created: 2, colors: [{ name: 'Tan', hex: '#a87850' }, { name: 'Black', hex: '#242424' }], description: `Student Backpack
+
+						For High School And Primary School<br>
+						Student Versatile Backpack Schoolbag with doll` },
+
+	{ id: 'bag-2', name: 'Trendy black student backpack', category: 'Accessories', audience: 'Women', price: 1100, oldPrice:1500 , rating: 4.8, reviews: 35, image: 'accessorise/bag2.jpeg', isNew: false, created: 2, colors: [{ name: 'Tan', hex: '#a87850' }, { name: 'Black', hex: '#242424' }], description: `` },
 
 
-	{ id: 'cargo-pants', name: 'Cargo Pants', category: 'Pants', audience: 'Men', price: 1350, oldPrice: null, rating: 4.6, reviews: 48, image: 'https://images.unsplash.com/photo-1517438476312-10d79c077509?auto=format&fit=crop&w=750&q=85', isNew: false, created: 4, colors: [{ name: 'Olive', hex: '#69725a' }, { name: 'Sand', hex: '#c8b79e' }], description: 'A practical everyday trouser with a modern tapered leg, comfortable cotton twill and considered utility pockets.' },
+	
 
 
-	{ id: 'cotton-panjabi', name: 'Cotton Panjabi', category: 'Shirts', audience: 'Men', price: 1500, oldPrice: 1850, rating: 4.9, reviews: 116, image: 'https://images.unsplash.com/photo-1617137968427-85924c800a22?auto=format&fit=crop&w=750&q=85', isNew: true, created: 3, colors: [{ name: 'Ivory', hex: '#e8e1d3' }, { name: 'Deep green', hex: '#394b3b' }], description: 'A breathable cotton Panjabi that brings a thoughtful, modern ease to a timeless classic.' },
-
-
-	{ id: 'fashion-handbag', name: 'Fashion Handbag', category: 'Accessories', audience: 'Women', price: 1200, oldPrice: null, rating: 4.8, reviews: 35, image: 'https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=750&q=85', isNew: false, created: 2, colors: [{ name: 'Tan', hex: '#a87850' }, { name: 'Black', hex: '#242424' }], description: 'A compact, thoughtfully designed everyday bag with room for the things you actually carry.' },
-
-
-	{ id: 'premium-cap', name: 'Premium Cap', category: 'Accessories', audience: 'Men', price: 450, oldPrice: null, rating: 4.7, reviews: 27, image: 'https://images.unsplash.com/photo-1588850561407-ed78c282e89b?auto=format&fit=crop&w=750&q=85', isNew: true, created: 1, colors: [{ name: 'Black', hex: '#242424' }, { name: 'Cream', hex: '#e8e1d3' }], description: 'A clean, adjustable cap in durable cotton twill. The finishing touch for laid-back days.' },
-
-
-    { id: 'premium-cap', name: 'Premium Cap', category: 'Accessories', audience: 'Men', price: 450, oldPrice: null, rating: 4.7, reviews: 27, image: 'https://images.unsplash.com/photo-1588850561407-ed78c282e89b?auto=format&fit=crop&w=750&q=85', isNew: true, created: 1, colors: [{ name: 'Black', hex: '#242424' }, { name: 'Cream', hex: '#e8e1d3' }], description: 'A clean, adjustable cap in durable cotton twill. The finishing touch for laid-back days.' },
 ];
 
 
@@ -113,17 +220,17 @@ const categories = [
 
 	{ title: "Women's Fashion", filter: 'Women', image: 'https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=650&q=80', position: 'center 35%' },
 
-	{ title: 'T-Shirts', filter: 'T-Shirts', image: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=650&q=80' },
+	{ title: 'T-Shirts', filter: 'T-Shirts', image: 'T-shirt/t3.jpeg' },
 
-	{ title: 'Shirts', filter: 'Shirts', image: 'https://images.unsplash.com/photo-1598033129183-c4f50c736f10?auto=format&fit=crop&w=650&q=80' },
+	{ title: 'Shirts', filter: 'Shirts', image: 'shirt/shirt2.jpeg' },
 
 	{ title: 'Pants', filter: 'Pants', image: 'https://images.unsplash.com/photo-1542272604-787c3835535d?auto=format&fit=crop&w=650&q=80' },
 
 	{ title: 'Hoodies', filter: 'Hoodies', image: 'https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=650&q=80' },
 
-	{ title: 'Punjabi', filter: 'Dresses', image: 'men/punjabi.jpeg' },
+	{ title: 'Punjabi', filter: 'Punjabi', image: 'men/panjabi.png' },
 
-	{ title: 'Accessories', filter: 'Accessories', image: 'https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=650&q=80' }
+	{ title: 'Accessories', filter: 'Accessories', image: 'men/accessoris.jpg' }
 ];
 
 const filterOptions = ['All', 'Men', 'Women', 'T-Shirts', 'Shirts', 'Pants', 'Punjabi', 'Hoodies', 'Accessories'];
@@ -187,25 +294,100 @@ function visibleProducts() {
 
 function renderProducts() {
 	const shown = visibleProducts();
-	// Product cards are generated from the catalog; delegated listeners handle their buttons.
+	// No products found
+	if (shown.length === 0) {
+		productGrid.innerHTML = `
+			<div class="empty-products">
+				<h3>Products Coming Soon 🛍️</h3>
+				<p>We're preparing something special for you. Check back soon!</p>
+			</div>
+		`;
+
+		document.querySelector('#resultCount').textContent = '0 pieces';
+		document.querySelector('#emptyState').hidden = true;
+
+		return;
+	}
+
+	// Show products
 	productGrid.innerHTML = shown.map((product, index) => `
 		<article class="product-card" style="animation-delay:${Math.min(index * 35, 210)}ms">
 			<div class="product-image-wrap">
 				<img class="product-image" src="${product.image}" alt="${product.name}" loading="lazy">
-				${product.oldPrice ? '<span class="product-badge sale-badge">SALE</span>' : product.isNew ? '<span class="product-badge">NEW</span>' : ''}
-				<button class="wishlist-button${wishlist.includes(product.id) ? ' is-loved' : ''}" type="button" data-wishlist="${product.id}" aria-label="${wishlist.includes(product.id) ? 'Remove from' : 'Add to'} wishlist" aria-pressed="${wishlist.includes(product.id)}">${wishlist.includes(product.id) ? '♥' : '♡'}</button>
-				<button class="quick-view-button" type="button" data-quick-view="${product.id}">Quick view</button>
+
+				${product.oldPrice
+					? '<span class="product-badge sale-badge">SALE</span>'
+					: product.isNew
+						? '<span class="product-badge">NEW</span>'
+						: ''
+				}
+
+				<button
+					class="wishlist-button${wishlist.includes(product.id) ? ' is-loved' : ''}"
+					type="button"
+					data-wishlist="${product.id}"
+					aria-label="${wishlist.includes(product.id) ? 'Remove from' : 'Add to'} wishlist"
+					aria-pressed="${wishlist.includes(product.id)}"
+				>
+					${wishlist.includes(product.id) ? '♥' : '♡'}
+				</button>
+
+				<button
+					class="quick-view-button"
+					type="button"
+					data-quick-view="${product.id}"
+				>
+					Quick view
+				</button>
 			</div>
+
 			<div class="product-info">
-				<p class="product-category">${product.audience} · ${product.category}</p>
+				<p class="product-category">
+					${product.audience} · ${product.category}
+				</p>
+
 				<h3 class="product-name">${product.name}</h3>
-				<p class="product-rating" aria-label="${product.rating} out of 5 stars">★★★★★ <span>${product.rating} (${product.reviews})</span></p>
-				<p class="product-price">${formatPrice(product.price)} ${product.oldPrice ? `<span class="old-price">${formatPrice(product.oldPrice)}</span>` : ''}</p>
-				<div class="product-actions"><button class="add-cart-button" type="button" data-add-cart="${product.id}">Add to bag</button><button class="whatsapp-button" type="button" data-whatsapp="${product.id}" aria-label="Order ${product.name} on WhatsApp" title="Order on WhatsApp">◉</button></div>
+
+				<p class="product-rating" aria-label="${product.rating} out of 5 stars">
+					★★★★★ <span>${product.rating} (${product.reviews})</span>
+				</p>
+
+				<p class="product-price">
+					${formatPrice(product.price)}
+					${product.oldPrice
+						? `<span class="old-price">${formatPrice(product.oldPrice)}</span>`
+						: ''
+					}
+				</p>
+
+				<div class="product-actions">
+					<button
+						class="add-cart-button"
+						type="button"
+						data-add-cart="${product.id}"
+					>
+						Add to bag
+					</button>
+
+					<button
+						class="whatsapp-button"
+						type="button"
+						data-whatsapp="${product.id}"
+						aria-label="Order ${product.name} on WhatsApp"
+						title="Order on WhatsApp"
+					>
+						◉
+					</button>
+				</div>
 			</div>
-		</article>`).join('');
-	document.querySelector('#resultCount').textContent = `${shown.length} ${shown.length === 1 ? 'piece' : 'pieces'}${saleOnly ? ' on sale' : ''}`;
-	document.querySelector('#emptyState').hidden = shown.length !== 0;
+		</article>
+	`).join('');
+
+	document.querySelector('#resultCount').textContent =
+		`${shown.length} ${shown.length === 1 ? 'piece' : 'pieces'}${saleOnly ? ' on sale' : ''}`;
+
+	document.querySelector('#emptyState').hidden = true;
+
 }
 
 function updateProducts() {
@@ -472,21 +654,6 @@ document.querySelector('#viewNewArrivals').addEventListener('click', () => {
 	updateProducts();
 });
 
-// These forms validate and show confirmation in the browser; no backend is connected.
-document.querySelector('#newsletterForm').addEventListener('submit', (event) => {
-	event.preventDefault();
-	const emailInput = document.querySelector('#newsletterEmail');
-	const message = document.querySelector('#newsletterMessage');
-	if (!emailInput.checkValidity()) {
-		message.textContent = 'Please enter a valid email address.';
-		message.className = 'form-message is-error';
-		emailInput.focus();
-		return;
-	}
-	message.textContent = 'Thanks for joining us. Your welcome offer is on its way.';
-	message.className = 'form-message is-success';
-	event.currentTarget.reset();
-});
 
 document.querySelector('#contactForm').addEventListener('submit', (event) => {
 	event.preventDefault();

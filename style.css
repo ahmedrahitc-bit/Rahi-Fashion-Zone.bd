@@ -389,3 +389,20 @@ button { color: inherit; }
 @media (prefers-reduced-motion: reduce) {
 	*, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
 }
+
+
+.empty-products {
+	grid-column: 1 / -1;
+	text-align: center;
+	padding: 80px 20px;
+}
+
+.empty-products h3 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.empty-products p {
+	font-size: 15px;
+	opacity: 0.7;
+}
