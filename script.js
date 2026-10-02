@@ -7,7 +7,7 @@ const WISHLIST_STORAGE_KEY = 'rahiFashionZoneWishlist';
 const products = [
     //T-shirt zone
 
-	{ id: 'T-shirt-1', name: 'Stylish New Polo Shirt', category: 'T-Shirts', audience: 'Men', price: 350, oldPrice: 500, rating: 4.9, reviews: 128, image: 'T-shirt/t1.jpeg', isNew: true, created: 12, colors: [{ name: 'Cloud', hex: '#e6e3dd' }, { name: 'Black', hex: '#242424' }, { name: 'Sage', hex: '#89917d' }], description: `Stylish New Polo Shirt
+	{ id: 'T-shirt-1', name: 'Stylish New Polo Shirt', category: 'T-Shirts', audience: 'Men', price: 350, oldPrice: 500, rating: 4.9, reviews: 12, image: 'T-shirt/t1.jpeg', isNew: true, created: 12, colors: [{ name: 'Cloud', hex: '#e6e3dd' }, { name: 'Black', hex: '#242424' }, { name: 'Sage', hex: '#89917d' }], description: `Stylish New Polo Shirt
 
 			Main Material: Cotton<br>
 			Fabrics: PK Cotton<br>
@@ -20,7 +20,7 @@ const products = [
 			L - Length 29 Chest: 40<br>
 			XL - Length 30 Chest 42` },
 
-    { id: 'T-shirt-2', name: 'Stylish New Polo Shirt', category: 'T-Shirts', audience: 'Men', price: 350, oldPrice: 500, rating: 4.9, reviews: 128, image: 'T-shirt/t2.jpeg', isNew: true, created: 12, colors: [{ name: 'Cloud', hex: '#e6e3dd' }, { name: 'Black', hex: '#242424' }, { name: 'Sage', hex: '#89917d' }], description: `
+    { id: 'T-shirt-2', name: 'Stylish New Polo Shirt', category: 'T-Shirts', audience: 'Men', price: 350, oldPrice: 500, rating: 4.9, reviews: 18, image: 'T-shirt/t2.jpeg', isNew: true, created: 12, colors: [{ name: 'Cloud', hex: '#e6e3dd' }, { name: 'Black', hex: '#242424' }, { name: 'Sage', hex: '#89917d' }], description: `
 
 				Product Type: Polo Shirt<br>
 				Main Material: Cotton<br>
@@ -31,7 +31,7 @@ const products = [
 				100% Export Quality Sewing
 ` },
 
-    { id: 'T-shirt-3', name: 'Premium Cotton Drop Shoulder Tshirt', category: 'T-Shirts', audience: 'Men', price: 499, oldPrice: 999, rating: 4.9, reviews: 128, image: 'T-shirt/t3.jpeg', isNew: true, created: 12, colors: [{ name: 'Cloud', hex: '#e6e3dd' }, { name: 'Black', hex: '#242424' }, { name: 'Sage', hex: '#89917d' }], description: `
+    { id: 'T-shirt-3', name: 'Premium Cotton Drop Shoulder Tshirt', category: 'T-Shirts', audience: 'Men', price: 499, oldPrice: 999, rating: 4.9, reviews: 15, image: 'T-shirt/t3.jpeg', isNew: true, created: 12, colors: [{ name: 'Cloud', hex: '#e6e3dd' }, { name: 'Black', hex: '#242424' }, { name: 'Sage', hex: '#89917d' }], description: `
 		Fabric: 100% Cotton<br>
 		Quality: Premium Quality Fabric<br>
 		Print Type: DTF<br>
@@ -43,7 +43,7 @@ const products = [
 		XL — Chest 46" | Length 29"<br>
 		XXL — Chest 48" | Length 30"` },
 
-    { id: 'T-shirt-4', name: 'Premium Cotton Drop Shoulder Tshirt', category: 'T-Shirts', audience: 'Men', price: 499, oldPrice: 999, rating: 4.9, reviews: 128, image: 'T-shirt/t4.jpeg', isNew: true, created: 12, colors: [{ name: 'Cloud', hex: '#e6e3dd' }, { name: 'Black', hex: '#242424' }, { name: 'Sage', hex: '#89917d' }], description: `
+    { id: 'T-shirt-4', name: 'Premium Cotton Drop Shoulder Tshirt', category: 'T-Shirts', audience: 'Men', price: 499, oldPrice: 999, rating: 4.9, reviews: 28, image: 'T-shirt/t4.jpeg', isNew: true, created: 12, colors: [{ name: 'Cloud', hex: '#e6e3dd' }, { name: 'Black', hex: '#242424' }, { name: 'Sage', hex: '#89917d' }], description: `
 		Fabric: 100% Cotton<br>
 		Quality: Premium Quality Fabric<br>
 		Print Type: DTF<br>
@@ -55,7 +55,7 @@ const products = [
 		XL — Chest 46" | Length 29"<br>
 		XXL — Chest 48" | Length 30"` },
 
-    { id: 'T-shirt-5', name: 'Viral Old Money Polo', category: 'T-Shirts', audience: 'Men', price: 350, oldPrice: 599, rating: 4.9, reviews: 128, image: 'T-shirt/t5.jpeg', isNew: true, created: 12, colors: [{ name: 'Cloud', hex: '#e6e3dd' }, { name: 'Black', hex: '#242424' }, { name: 'Sage', hex: '#89917d' }], description: `- Premium Cherry Ribbed Cotton Fabric
+    { id: 'T-shirt-5', name: 'Viral Old Money Polo', category: 'T-Shirts', audience: 'Men', price: 350, oldPrice: 599, rating: 4.9, reviews: 10, image: 'T-shirt/t5.jpeg', isNew: true, created: 12, colors: [{ name: 'Cloud', hex: '#e6e3dd' }, { name: 'Black', hex: '#242424' }, { name: 'Sage', hex: '#89917d' }], description: `- Premium Cherry Ribbed Cotton Fabric
 			- 250+ GSM Heavy Quality Fabric<br>
 			- Soft & Comfortable Feel<br>
 			- Premium Finishing<br>
@@ -80,7 +80,7 @@ const products = [
 
  //shirt zone
 
-	{ id: 'shirt-1', name: 'Premium Solid Stitch Full Sleeve Shirt', category: 'Shirts', audience: 'Men', price: 599, oldPrice: null, rating: 4.8, reviews: 86, image: 'shirt/shirt1.jpeg', isNew: false, created: 11, colors: [{ name: 'White', hex: '#f4f1e8' }, { name: 'Blue', hex: '#8ea7bb' }], description: `নরম ও আরামদায়ক প্রিমিয়াম চায়না ভাংচুর ফেব্রিক্সের তৈরি ফুল হাতা শার্ট।
+	{ id: 'shirt-1', name: 'Premium Solid Stitch Full Sleeve Shirt', category: 'Shirts', audience: 'Men', price: 599, oldPrice: null, rating: 4.8, reviews: 18, image: 'shirt/shirt1.jpeg', isNew: false, created: 11, colors: [{ name: 'White', hex: '#f4f1e8' }, { name: 'Blue', hex: '#8ea7bb' }], description: `নরম ও আরামদায়ক প্রিমিয়াম চায়না ভাংচুর ফেব্রিক্সের তৈরি ফুল হাতা শার্ট।
 						স্টাইলিশ টেক্সচার ডিজাইন ও সুন্দর ফিটিংয়ে আপনাকে দিবে দারুন স্টাইলইশ লুক।<br>
 
 						📌 Product Details:<br>
@@ -90,7 +90,7 @@ const products = [
 						✅ আরামদায়ক ফিটিং<br>
 						✅ দৈনন্দিন ব্যবহারের জন্য উপযোগী` },
 
-	{ id: 'shirt-2', name: 'Premium Solid Stitch Full Sleeve Shirt', category: 'Shirts', audience: 'Men', price: 599, oldPrice: null, rating: 4.8, reviews: 86, image: 'shirt/shirt2.jpeg', isNew: false, created: 11, colors: [{ name: 'White', hex: '#f4f1e8' }, { name: 'Blue', hex: '#8ea7bb' }], description: `নরম ও আরামদায়ক প্রিমিয়াম চায়না ভাংচুর ফেব্রিক্সের তৈরি ফুল হাতা শার্ট।
+	{ id: 'shirt-2', name: 'Premium Solid Stitch Full Sleeve Shirt', category: 'Shirts', audience: 'Men', price: 599, oldPrice: null, rating: 4.8, reviews: 16, image: 'shirt/shirt2.jpeg', isNew: false, created: 11, colors: [{ name: 'White', hex: '#f4f1e8' }, { name: 'Blue', hex: '#8ea7bb' }], description: `নরম ও আরামদায়ক প্রিমিয়াম চায়না ভাংচুর ফেব্রিক্সের তৈরি ফুল হাতা শার্ট।
 						স্টাইলিশ টেক্সচার ডিজাইন ও সুন্দর ফিটিংয়ে আপনাকে দিবে দারুন স্টাইলইশ লুক।<br>
 
 						📌 Product Details:<br>
@@ -100,7 +100,7 @@ const products = [
 						✅ আরামদায়ক ফিটিং<br>
 						✅ দৈনন্দিন ব্যবহারের জন্য উপযোগী` },
 
-	{ id: 'shirt-3', name: 'Premium Oxford Cotton Solid Black Shirt', category: 'Shirts', audience: 'Men', price: 499, oldPrice: null, rating: 4.8, reviews: 86, image: 'shirt/shirt3.jpeg', isNew: false, created: 11, colors: [{ name: 'White', hex: '#f4f1e8' }, { name: 'Blue', hex: '#8ea7bb' }], description: `প্রিমিয়াম অক্সফোর্ড কটন ফেব্রিক্সের ব্যান কলার ফুল হাতা শার্ট।
+	{ id: 'shirt-3', name: 'Premium Oxford Cotton Solid Black Shirt', category: 'Shirts', audience: 'Men', price: 499, oldPrice: null, rating: 4.8, reviews: 26, image: 'shirt/shirt3.jpeg', isNew: false, created: 11, colors: [{ name: 'White', hex: '#f4f1e8' }, { name: 'Blue', hex: '#8ea7bb' }], description: `প্রিমিয়াম অক্সফোর্ড কটন ফেব্রিক্সের ব্যান কলার ফুল হাতা শার্ট।
 							গরমে স্টাইল আর কমফোর্ট—দুটোই একসাথে!<br>
 
 							👕 Product Details:<br>
@@ -111,7 +111,7 @@ const products = [
 							✔️ Color & Quality: 100% Guaranteed<br>
 							✔️ Comfortable for Every Season` },
 
-	{ id: 'shirt-4', name: 'Formal Official Cotton Shirt', category: 'Shirts', audience: 'Men', price: 599, oldPrice: null, rating: 4.8, reviews: 86, image: 'shirt/shirt4.jpeg', isNew: false, created: 11, colors: [{ name: 'White', hex: '#f4f1e8' }, { name: 'Blue', hex: '#8ea7bb' }], description: `Premium White Pinstripe Long Sleeve<br>
+	{ id: 'shirt-4', name: 'Formal Official Cotton Shirt', category: 'Shirts', audience: 'Men', price: 599, oldPrice: null, rating: 4.8, reviews: 20, image: 'shirt/shirt4.jpeg', isNew: false, created: 11, colors: [{ name: 'White', hex: '#f4f1e8' }, { name: 'Blue', hex: '#8ea7bb' }], description: `Premium White Pinstripe Long Sleeve<br>
 							Fabric: Oxford Cotton<br>
 							Export Quality <br>
 							Fabric details:<br>
@@ -120,7 +120,7 @@ const products = [
 							Very comfortable & high-quality Fabric<br>
 							Color and Wash Granted` },
 
-	{ id: 'shirt-5', name: 'Premium Oxford Cotton Solid Shirt', category: 'Shirts', audience: 'Men', price: 499, oldPrice: null, rating: 4.8, reviews: 86, image: 'shirt/shirt5.jpeg', isNew: false, created: 11, colors: [{ name: 'White', hex: '#f4f1e8' }, { name: 'Blue', hex: '#8ea7bb' }], description: `প্রিমিয়াম অক্সফোর্ড কটন ফেব্রিক্সের ব্যান কলার ফুল হাতা শার্ট।
+	{ id: 'shirt-5', name: 'Premium Oxford Cotton Solid Shirt', category: 'Shirts', audience: 'Men', price: 499, oldPrice: null, rating: 4.8, reviews: 39, image: 'shirt/shirt5.jpeg', isNew: false, created: 11, colors: [{ name: 'White', hex: '#f4f1e8' }, { name: 'Blue', hex: '#8ea7bb' }], description: `প্রিমিয়াম অক্সফোর্ড কটন ফেব্রিক্সের ব্যান কলার ফুল হাতা শার্ট।
 							গরমে স্টাইল আর কমফোর্ট—দুটোই একসাথে!<br>
 
 							👕 Product Details:<br>
@@ -200,16 +200,15 @@ const products = [
 	
 
 
-	{ id: 'bag-1', name: 'Trendy black student backpack', category: 'Accessories', audience: 'Women', price: 1100, oldPrice:1500 , rating: 4.8, reviews: 35, image: 'accessorise/bag1.jpeg', isNew: false, created: 2, colors: [{ name: 'Tan', hex: '#a87850' }, { name: 'Black', hex: '#242424' }], description: `Student Backpack
+	{ id: 'bag-1', name: 'Trendy black student backpack', category: 'Accessories', audience: 'Accessories', price: 1100, oldPrice:1500 , rating: 4.8, reviews: 25, image: 'accessorise/bag1.jpeg', isNew: false, created: 2, colors: [{ name: 'Tan', hex: '#a87850' }, { name: 'Black', hex: '#242424' }], description: `Student Backpack
 
 						For High School And Primary School<br>
 						Student Versatile Backpack Schoolbag with doll` },
 
-	{ id: 'bag-2', name: 'Trendy black student backpack', category: 'Accessories', audience: 'Women', price: 1100, oldPrice:1500 , rating: 4.8, reviews: 35, image: 'accessorise/bag2.jpeg', isNew: false, created: 2, colors: [{ name: 'Tan', hex: '#a87850' }, { name: 'Black', hex: '#242424' }], description: `` },
+	{ id: 'bag-2', name: 'Trendy black student backpack', category: 'Accessories', audience: 'Accessories', price: 1100, oldPrice:1500 , rating: 4.8, reviews: 35, image: 'accessorise/bag2.jpeg', isNew: false, created: 2, colors: [{ name: 'Tan', hex: '#a87850' }, { name: 'Black', hex: '#242424' }], description: `Student Backpack
 
-
-	
-
+						For High School And Primary School<br>
+						Student Versatile Backpack Schoolbag with doll` },
 
 ];
 
